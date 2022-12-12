@@ -17,7 +17,7 @@ function App() {
 
   const getData = useCallback(() => {
     setData(JsonData)
-  }, [landingPageData]);
+  }, []);
 
   useEffect(() => {
     getData()
